@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@lg-yyds 
-lg-yyds
-/
-vpsroot
-Public
-forked from kkkyg/vpsroot
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-vpsroot/root.sh
-@kkkyg
-kkkyg Update root.sh
-Latest commit ea82c2b on 26 Apr
- History
- 1 contributor
-45 lines (45 sloc)  2.62 KB
-   
 #!/bin/bash
 red='\033[0;31m'
 bblue='\033[0;34m'
@@ -62,16 +33,3 @@ else
 red "当前vps不支持root账户或无法自定义root密码,建议先执行sudo -i 进入root账户后再执行脚本" 
 fi
 rm -rf root.sh
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
