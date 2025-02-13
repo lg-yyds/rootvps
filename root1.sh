@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "欢迎访问我的博客：joeyblog.xyz"
+echo ""
 
 # 检查是否已经开启SSH root登录
 if sudo grep -q "^PermitRootLogin yes$" /etc/ssh/sshd_config; then
